@@ -122,3 +122,17 @@ footer{
 .image-accueil-3{
     clip-path: circle(48.9% at 50% 51%);
 }
+
+/* ========================SPECIFIQUE PAGE ARBUSTE===================== */
+.arbustes-block1{
+    display: flex;
+    background-color: floralwhite;
+}
+.arbustes-block2{
+    display: flex;
+    background-color: rgb(55, 23, 92);
+}
+.arbustes-block3{
+    display: flex;
+    background-color: rgb(167, 124, 39);
+}
