@@ -25,6 +25,7 @@ nav a:hover{
 
 
 
+
 /* ==========================PAGE PRESENTATION======================== */
 .Presentation{
     height: 100%;
@@ -40,14 +41,62 @@ nav a:hover{
     justify-content: space-between;
     background: url(Images/background/plant_pouss.jpg) no-repeat center center;
     background-size: cover;
-}
+=======
+
+/* ===========================MAIN================================= */
+
 
 .Presentation_Header{
     background-color: rgba(55, 58, 64, 0.5);
 }
+
 
 .Presentation_Main{
     
     width: 100%;
     height: 100%;
 }
+
+
+
+
+/* ========================FOOTER================================= */
+
+
+
+
+/* ========================SPECIFIQUE PAGE ACCUEIL===================== */
+/* ICI BLOCK1-------- */
+.accueil-block1{
+    background-image: url("accueilpicture1.png");
+    background-size: cover;
+    height: 80vh;
+    margin: 0%;
+    display: flex;
+    flex-direction: column;
+    
+}
+.accueil-block1 h1 {
+   text-align: center;
+   /* margin-top: 40%; */
+   background-color: blue;
+   margin: 0px;
+   margin-top: 1%;
+   font-size: 80px;
+}
+.accueil-block1 h2{
+    background-color: blueviolet;
+    text-align: center;
+    margin-top: 12%;
+}
+.accueil-block1 h3{
+    background-color: cornsilk;
+    text-align: center;
+    width: 10%;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    align-self: center;
+}
+/* ICI BLOCK2-------- */
+.accueil-block2
+
