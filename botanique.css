@@ -1,10 +1,8 @@
-<<<<<<< HEAD
-
 
 
 
 /*========================= NAVIGATION ============================*/
-=======
+
 body{
     margin: 0;
     display: flex;
@@ -14,7 +12,6 @@ header{
     background-color: green;
     width: 100%;
 }
->>>>>>> parent of ba86e1b... Changement de couleurs
 nav{
     padding-top: 10px;
     padding-bottom: 10px;
@@ -22,7 +19,6 @@ nav{
 nav a {
     font-size: 20px;
     margin-left: 5px;
-<<<<<<< HEAD
     text-decoration: none;
     color: white;
 }
@@ -31,8 +27,7 @@ nav a:hover{
 }
 
 
-=======
-}
+
 main{
     background-color: lightskyblue;
     height: 90vh; /*provisoire */
@@ -40,4 +35,3 @@ main{
 footer{
     background-color: rgb(211, 13, 43);
 }
->>>>>>> parent of ba86e1b... Changement de couleurs
