@@ -29,9 +29,96 @@ nav a:hover{
 
 
 main{
-    background-color: lightskyblue;
-    height: 90vh; /*provisoire */
+    background-color: rgb(158, 250, 135);
+    /* height: 90vh; provisoire */
 }
 footer{
     background-color: rgb(211, 13, 43);
+}
+
+/* ========================SPECIFIQUE PAGE ACCUEIL===================== */
+/* ICI BLOCK1------------------- */
+.accueil-block1{
+    background-image: url("images/accueilpicture1.png");
+    background-size: cover;
+    height: 80vh;
+    margin: 0%;
+    display: flex;
+    flex-direction: column;
+}
+.accueil-block1 h1 {
+   text-align: center;
+   /* margin-top: 40%; */
+   background-color: blue;
+   margin: 0px;
+   margin-top: 1%;
+   font-size: 80px;
+}
+.accueil-block1 h2{
+    background-color: blueviolet;
+    text-align: center;
+    margin-top: 12%;
+}
+
+.accueil-block1 h3{
+    background-color: cornsilk;
+    text-align: center;
+    width: 10%;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    align-self: center;
+}
+
+/* ICI BLOCK2------------------- */
+
+.accueil-block2{
+    width: 30%;
+    background-color: darkred;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.accueil-block2 h1 {
+    text-align: center;
+}
+.accueil-block2 p{
+    text-align: center;
+}
+
+/* ICI BLOCK3------------------- */
+
+.accueil-block3{
+    display: flex;
+    background-color: darkviolet;
+    margin-bottom: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.image-accueil-1 {
+    clip-path: circle(47.6% at 50% 50%);
+    width: 100%;
+    height: 100%;
+}
+
+/* ICI BLOCK4------------------- */
+
+.accueil-block4{
+    display: flex;
+    background-color: deepskyblue;
+    margin-bottom: 100px;
+    height: 300px;
+}
+.image-accueil-2{
+    clip-path: circle(48.9% at 50% 51%);
+}
+
+/* ICI BLOCK5------------------- */
+
+.accueil-block5{
+    display: flex;
+    background-color: dodgerblue;
+    margin-bottom: 100px;
+}
+.image-accueil-3{
+    clip-path: circle(48.9% at 50% 51%);
 }
