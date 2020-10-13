@@ -45,7 +45,7 @@ nav a:hover{
 /* ===========================MAIN================================= */
 main{
     /* background-color: rgb(214, 248, 184); */
-    height: 90vh; /*provisoire */
+    /* height: 90vh; provisoire */
 }
 
 
@@ -61,6 +61,36 @@ footer{
 
 
 /* ========================SPECIFIQUE PAGE ACCUEIL===================== */
+/* ICI BLOCK1-------- */
 .accueil-block1{
     background-image: url("accueilpicture1.png");
+    background-size: cover;
+    height: 80vh;
+    margin: 0%;
+    display: flex;
+    flex-direction: column;
+    
 }
+.accueil-block1 h1 {
+   text-align: center;
+   /* margin-top: 40%; */
+   background-color: blue;
+   margin: 0px;
+   margin-top: 1%;
+   font-size: 80px;
+}
+.accueil-block1 h2{
+    background-color: blueviolet;
+    text-align: center;
+    margin-top: 12%;
+}
+.accueil-block1 h3{
+    background-color: cornsilk;
+    text-align: center;
+    width: 10%;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    align-self: center;
+}
+/* ICI BLOCK2-------- */
+.accueil-block2
