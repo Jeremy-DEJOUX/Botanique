@@ -44,7 +44,7 @@ nav a:hover{
 
 /* ===========================MAIN================================= */
 main{
-    background-color: rgb(214, 248, 184);
+    /* background-color: rgb(214, 248, 184); */
     height: 90vh; /*provisoire */
 }
 
@@ -56,4 +56,11 @@ main{
 footer{
     background-color:rgb(143, 187, 175);
     color: rgb(107, 123, 142);
+}
+
+
+
+/* ========================SPECIFIQUE PAGE ACCUEIL===================== */
+.accueil-block1{
+    background-image: url("accueilpicture1.png");
 }
