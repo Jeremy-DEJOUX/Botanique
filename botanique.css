@@ -29,15 +29,15 @@
     display: flex;
     width: 100%;
     justify-content: space-around;
-   
-    
+
+
 }
 .navme a {
     font-size: 20px;
     margin-left: 10px;
     text-decoration: none;
     color: white;
-    
+
 }
 .navme a:hover{
     color: rgb(26, 202, 35);
@@ -119,45 +119,14 @@
 .titrehover:hover{
     background-color: white;
     color: black;
-=======
-html{
-  width: 100%;
-  height: 100%;
-}
-body{
-  width: 100%;
-  height: 100%;
-  margin: 0;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  font-family: 'Montserrat', sans-serif;
-  color: white;
-}
-header{
-  background-color: green;
-  width: 100%;
-}
-nav{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
-nav a {
-  font-size: 20px;
-  margin-left: 5px;
-  text-decoration: none;
-  color: white;
-}
-nav a:hover{
-  color: black;
 }
 
-footer{
-  background-color: rgb(211, 13, 43);
-}
+
+
+
+
+
+
 /* ICI BLOCK2------------------- */
 
 .accueil-block2{
@@ -174,7 +143,7 @@ footer{
 }
 .accueil-block2 p{
     text-align: center;
-    
+
     align-self: center;
     justify-content: center;
 }
@@ -372,7 +341,86 @@ footer{
     text-align: center;
     align-self: center;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Plantes_HTML{
+  width: 100%;
+  height: 100%;
+}
+body{
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+}
+header{
+  background-color: green;
+  width: 100%;
+}
+nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+nav a {
+  font-size: 20px;
+  margin-left: 5px;
+  text-decoration: none;
+  color: white;
+}
+nav a:hover{
+  color: black;
+}
+
+footer{
+  background-color: rgb(211, 13, 43);
+}
+
+
+
+
+
+
+
+
+
+
+
 /* =============PAGE PRESENTATION============= */
+
+
+.Presentation{
+  width: 100%;
+  height: 100%;
+}
 .Presentation_Main{
   background: url(./Images/background/plant_pouss.jpg) no-repeat center center;
   background-size: cover;
@@ -478,7 +526,10 @@ footer{
 
 
 /* ===========================PAGE FLEURS================================ */
-
+.Fleurs{
+  width: 100%;
+  height: 100%;
+}
 .Fleurs_Main{
   width: 100%;
   height: 100%;
@@ -652,4 +703,3 @@ footer{
     height: 1000px;
     margin-top: 10px;
 }
-
