@@ -1,4 +1,9 @@
-
+@font-face {
+    font-family: 'Harriet Text Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Harriet Text Regular'), url('HARRIETTEXTREGULAR.woff') format('woff');
+    }
 
 
 /*========================= NAVIGATION ============================*/
@@ -29,7 +34,7 @@ nav a:hover{
 
 
 main{
-    background-color: rgb(158, 250, 135);
+    /* background-color: rgb(158, 250, 135); */
     /* height: 90vh; provisoire */
 }
 footer{
@@ -39,60 +44,98 @@ footer{
 /* ========================SPECIFIQUE PAGE ACCUEIL===================== */
 /* ICI BLOCK1------------------- */
 .accueil-block1{
-    background-image: url("images/accueilpicture1.png");
+    display: flex;
+    background-image: url("images/wallpaper1.jpg");
     background-size: cover;
     height: 80vh;
     margin: 0%;
     display: flex;
     flex-direction: column;
+    font-family: 'Harriet Text Regular', Arial, Helvetica, sans-serif;
+}
+.accueil-block1 h2{
+    /* background-color: blueviolet; */
+    text-align: center;
+    /* margin: auto; */
+    align-self: center;
+    margin-top: 16%;
+    width: 16%;
+    color: white;
+    background-color: rgb(0, 0, 0, 0.7);
+    border-radius: 20px;
 }
 .accueil-block1 h1 {
    text-align: center;
    /* margin-top: 40%; */
-   background-color: blue;
+   /* background-color: blue; */
    margin: 0px;
-   margin-top: 1%;
+   /* margin-top: 1%; */
    font-size: 80px;
-}
-.accueil-block1 h2{
-    background-color: blueviolet;
-    text-align: center;
-    margin-top: 12%;
+   width: 60%;
+   align-self: center;
+   color: rgb(33, 179, 53);
+   background-color: rgb(0, 0, 0, 0.7);
+   border-radius: 20px;
 }
 
-.accueil-block1 h3{
+.titrehover{
     background-color: cornsilk;
     text-align: center;
     width: 10%;
-    padding-top: 3px;
-    padding-bottom: 3px;
+    margin-top: 30px;
+    /* padding-top: 10px; */
+    /* padding-bottom: 3px; */
     align-self: center;
+    background-color: rgb(0, 0, 0, 0.7);
+    border-radius: 20px;
+    color: white;
 }
-
+.titrehover h3{
+    margin-top: 0px;
+    margin-bottom:0px ;
+}
+.titrehover{
+    text-decoration: none;
+}
+.titrehover:hover{
+    background-color: white;
+    color: black;
+}
 /* ICI BLOCK2------------------- */
 
 .accueil-block2{
-    width: 30%;
-    background-color: darkred;
+    width: 50%;
+    /* background-color: darkred; */
     margin: auto;
-    margin-top: 100px;
+    margin-top: 50px;
     margin-bottom: 50px;
+    font-family: 'Harriet Text Regular', Arial, Helvetica, sans-serif;
 }
 .accueil-block2 h1 {
     text-align: center;
+    font-size: 30px;
 }
 .accueil-block2 p{
     text-align: center;
+    
+    align-self: center;
+    justify-content: center;
 }
 
 /* ICI BLOCK3------------------- */
 
 .accueil-block3{
     display: flex;
-    background-color: darkviolet;
+    /* background-color: darkviolet; */
     margin-bottom: 100px;
     padding-top: 50px;
     padding-bottom: 50px;
+    font-family: 'Harriet Text Regular', Arial, Helvetica, sans-serif;
+}
+.text-block3{
+    display: flex;
+    flex-direction: column;
+    padding-right: 50px;
 }
 .image-accueil-1 {
     clip-path: circle(47.6% at 50% 50%);
@@ -104,20 +147,32 @@ footer{
 
 .accueil-block4{
     display: flex;
-    background-color: deepskyblue;
+    /* background-color: deepskyblue; */
     margin-bottom: 100px;
     height: 300px;
+    font-family: 'Harriet Text Regular', Arial, Helvetica, sans-serif;
+}
+.accueil-block4 p{
+    align-self: center;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 .image-accueil-2{
-    clip-path: circle(48.9% at 50% 51%);
+    /* clip-path: circle(48.9% at 50% 51%); */
+    padding-right: 50px;
 }
 
 /* ICI BLOCK5------------------- */
 
 .accueil-block5{
     display: flex;
-    background-color: dodgerblue;
+    /* background-color: dodgerblue; */
     margin-bottom: 100px;
+    font-family: 'Harriet Text Regular', Arial, Helvetica, sans-serif;
+}
+.accueil-block5 p{
+    align-self: center;
+    padding-right: 50px;
 }
 .image-accueil-3{
     clip-path: circle(48.9% at 50% 51%);
@@ -171,6 +226,58 @@ footer{
     padding-left: 20px;
 }
 .arbustes-block3 p {
+    padding-right: 50px;
+    text-align: center;
+    align-self: center;
+}
+/* ========================SPECIFIQUE PAGE LEGUMES===================== */
+/* ICI BLOCK1------------------- */
+.legumes-block1{
+    display: flex;
+    background-color: floralwhite;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.image-legumes-1 {
+    width: 45%;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.legumes-block1 p {
+    padding-right: 50px;
+    text-align: center;
+    align-self: center;
+}
+
+/* ICI BLOCK2------------------- */
+.legumes-block2{
+    display: flex;
+    background-color: rgb(55, 23, 92);
+    margin-bottom: 50px;
+}
+.image-legumes-2{
+    width: 40%;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.legumes-block2 p {
+    padding-left: 50px;
+    text-align: center;
+    align-self: center;
+}
+
+/* ICI BLOCK3------------------- */
+.legumes-block3{
+    display: flex;
+    background-color: rgb(167, 124, 39);
+    margin-bottom: 50px;
+}
+.image-legumes-3{
+    width: 45%;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.legumes-block3 p {
     padding-right: 50px;
     text-align: center;
     align-self: center;
