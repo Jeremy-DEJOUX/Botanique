@@ -37,8 +37,6 @@ nav a:hover{
   color: black;
 }
 
-
-
 footer{
   background-color: rgb(211, 13, 43);
 }
@@ -49,6 +47,7 @@ footer{
 .Presentation_Main{
   background: url(./Images/background/plant_pouss.jpg) no-repeat center center;
   background-size: cover;
+  background-position: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -86,8 +85,9 @@ footer{
   padding: 10px;
 }
 .Keanu{
-  background: url(Images/Portrait/Keanu.png) no-repeat center center;
+  background: url(Images/Portrait/Keanu.png);
   background-size: cover;
+  background-position: top;
   clip-path: circle(50% at 50% 50%);
   background-color: white;
   height: 200px;
@@ -95,8 +95,9 @@ footer{
   margin-top: 10px;
 }
 .Gandhi{
-  background: url(Images/Portrait/Gandhi.png) no-repeat center center;
+  background: url(Images/Portrait/Gandhi.png);
   background-size: cover;
+  background-position: top;
   clip-path: circle(50% at 50% 50%);
   background-color: white;
   height: 200px;
@@ -104,8 +105,9 @@ footer{
   margin-top: 10px;
 }
 .Ip_man{
-  background: url(Images/Portrait/Ip_man.png) no-repeat center center;
+  background: url(Images/Portrait/Ip_man.png);
   background-size: cover;
+  background-position: top;
   clip-path: circle(50% at 50% 50%);
   background-color: white;
   height: 200px;
@@ -130,6 +132,22 @@ footer{
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* ===========================PAGE FLEURS================================ */
 
 .Fleurs_Main{
@@ -146,37 +164,162 @@ footer{
   /* gap: 1px 1px; */
 }
 .Fleurs_1{
-  background: url(Images/Fleurs/rosa.jpg)center;
+  background: url(Images/Fleurs/rosa.jpg);
   background-size: cover;
+  background-position: right;
   grid-row: 1/4;
 }
 .Fleurs_2{
   grid-row: 1/4;
   grid-column: 2/5;
-  background: url(Images/Fleurs/cerisier.jpg) center center no-repeat;
+  background: url(Images/Fleurs/cerisier.jpg);
   background-size: cover;
+  background-position: bottom;
 }
 .Fleurs_3{
   grid-row: 1/4;
-  background: url(Images/Fleurs/coquelicot.jpg) center center no-repeat;
+  background: url(Images/Fleurs/coquelicot.jpg);
   background-size: cover;
+  background-position: bottom right;
 }
 
 .Fleurs_5{
   grid-row: 4/6;
   grid-column: 4/6;
-  background: url(Images/Fleurs/rose_du_desert.jpg) center center no-repeat;
+  background: url(Images/Fleurs/rose_du_desert.jpg);
   background-size: cover;
+  background-position: center;
 }
 .Fleurs_6{
   grid-row: 4/6;
   grid-column: 3/4;
-  background: url(Images/Fleurs/soleil.jpg) center center no-repeat;
+  background: url(Images/Fleurs/soleil.jpg);
   background-size: cover;
+  background-position: top;
 }
 .Fleurs_7{
   grid-column: 1/3;
   grid-row: 4/6;
-  background: url(Images/Fleurs/jonc.jpg) center center no-repeat;
+  background: url(Images/Fleurs/jonc.jpg);
   background-size: cover;
+  background-position: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* ============================PAGE PLANTE================================== */
+.Plantes_main{
+  background: url(./Images/background/plant_pouss.jpg) no-repeat center center;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+
+.Plantes_main_titre{
+
+}
+
+.Plantes_Box{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.Plantes_Box_1{
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  height: 3000px;
+  padding-top: 50px;
+  padding-left: 50px;
+  padding-right: 20px;
+  padding-bottom: 50px;
+  background-color: rgba(56, 62, 86, 0.5);
+}
+.Plantes_Box_2{
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  height: 3000px;
+  padding-top: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+  background-color: rgba(56, 62, 86, 0.5);
+}
+.Plantes_1{
+  background: url(Images/Plantes/petit_cochon.jpg) no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  width: 100%;
+  height: 850px;
+}
+.Plantes_2{
+  background: url(Images/Plantes/ravenale.jpg) no-repeat;
+  background-size: cover;
+  background-position: right;
+  width: 100%;
+  height: 1000px;
+  margin-top: 10px;
+}
+.Plantes_3{
+  background: url(Images/Plantes/cyathea.jpg) no-repeat;
+  background-size: cover;
+  background-position: right;
+  width: 100%;
+  height: 500px;
+  margin-top: 10px;
+}
+.Plantes_4{
+    background: url(Images/Plantes/cactus.jpg) no-repeat;
+    background-size: cover;
+    background-position: top right;
+    width: 100%;
+    height: 600px;
+    margin-top: 10px;
+}
+.Plantes_2_1{
+    background: url(Images/Plantes/rangement.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 950px;
+}
+.Plantes_2_2{
+    background: url(Images/Plantes/cériman.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 400px;
+    margin-top: 10px;
+}
+.Plantes_2_3{
+    background: url(Images/Plantes/gommier_bleu.jpg) no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    width: 100%;
+    height: 600px;
+    margin-top: 10px;
+}
+.Plantes_2_4{
+    background: url(Images/Plantes/ficus.jpg) no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    width: 100%;
+    height: 1000px;
+    margin-top: 10px;
 }
