@@ -12,23 +12,34 @@
     margin: 0;
     display: flex;
     flex-direction: column;
+    background-color: burlywood;
 }
 .headerme{
-    background-color: green;
+    background-color: rgb(0, 128, 0, 0.3);
     width: 100%;
+    display: flex;
+    position: fixed;
+    z-index: 1;
+    border-bottom: 2px solid white;
 }
 .navme{
     padding-top: 10px;
     padding-bottom: 10px;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+   
+    
 }
 .navme a {
     font-size: 20px;
-    margin-left: 5px;
+    margin-left: 10px;
     text-decoration: none;
     color: white;
+    
 }
 .navme a:hover{
-    color: black;
+    color: rgb(26, 202, 35);
 }
 
 
@@ -38,7 +49,14 @@
     /* height: 90vh; provisoire */
 }
 .footerme{
-    background-color: rgb(211, 13, 43);
+    background-color: rgb(211, 13, 43, 0.7);
+    border-top: 2px solid white;
+}
+.footerme p{
+    margin: 0;
+    text-align: center;
+    padding-top: 3px;
+    padding-bottom: 3px;
 }
 
 /* ========================SPECIFIQUE PAGE ACCUEIL===================== */
@@ -136,6 +154,10 @@
     display: flex;
     flex-direction: column;
     padding-right: 50px;
+    text-align: justify;
+}
+.text-block3 h3{
+    font-size: 25px;
 }
 .image-accueil-1 {
     clip-path: circle(47.6% at 50% 50%);
@@ -156,6 +178,12 @@
     align-self: center;
     padding-left: 50px;
     padding-right: 50px;
+    text-align: justify;
+}
+.text-block4 h3 {
+    font-size: 25px;
+    text-align: right;
+    padding-right: 50px;
 }
 .image-accueil-2{
     /* clip-path: circle(48.9% at 50% 51%); */
@@ -173,6 +201,7 @@
 .accueil-block5 p{
     align-self: center;
     padding-right: 50px;
+    text-align: justify;
 }
 .image-accueil-3{
     clip-path: circle(48.9% at 50% 51%);
