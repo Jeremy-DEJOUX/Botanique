@@ -124,15 +124,54 @@ footer{
 }
 
 /* ========================SPECIFIQUE PAGE ARBUSTE===================== */
+/* ICI BLOCK1------------------- */
 .arbustes-block1{
     display: flex;
     background-color: floralwhite;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
+.image-arbuste-1 {
+    width: 45%;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.arbustes-block1 p {
+    padding-right: 50px;
+    text-align: center;
+    align-self: center;
+}
+
+/* ICI BLOCK2------------------- */
 .arbustes-block2{
     display: flex;
     background-color: rgb(55, 23, 92);
+    margin-bottom: 50px;
 }
+.image-arbuste-2{
+    width: 45%;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.arbustes-block2 p {
+    padding-left: 50px;
+    text-align: center;
+    align-self: center;
+}
+
+/* ICI BLOCK3------------------- */
 .arbustes-block3{
     display: flex;
     background-color: rgb(167, 124, 39);
+    margin-bottom: 50px;
+}
+.image-arbuste-3{
+    width: 45%;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.arbustes-block3 p {
+    padding-right: 50px;
+    text-align: center;
+    align-self: center;
 }
