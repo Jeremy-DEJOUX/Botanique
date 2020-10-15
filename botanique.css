@@ -596,7 +596,7 @@ footer{
 
 
 
-/* ============================PAGE PLANTE================================== */
+/* =======================================================PAGE PLANTE================================================================== */
 .Plantes_main{
   background: url(./Images/background/plant_pouss.jpg) no-repeat center center;
   background-size: cover;
@@ -631,6 +631,200 @@ footer{
   padding-bottom: 50px;
   background-color: rgba(56, 62, 86, 0.5);
 }
+
+.Plantes_1_card {
+  /* background-color: transparent; */
+  width: 100%;
+  height: 850px;
+  border: 1px solid #f1f1f1;
+  perspective: 800px;
+  /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.Plantes_1_card_inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.Plantes_1_card:hover .Plantes_1_card_inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+ .Plantes_1_card_front, .Plantes_1_card_back{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.Plantes_1_card_front {
+  background: url(Images/Plantes/petit_cochon.jpg);
+  background-size: cover;
+  background-position: center;
+  color: black;
+}
+
+.Plantes_1_card_back {
+  background-color: white;
+  color: black;
+  transform: rotateY(180deg);
+}
+
+
+
+
+
+.Plantes_2_card {
+  width: 100%;
+  height: 1000px;
+  /* border: 1px solid #f1f1f1;   If You want a border  */
+  perspective: 800px;
+  margin-top: 10px;
+}
+
+/* This container is needed to position the front and back side */
+.Plantes_2_card_inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.Plantes_2_card:hover .Plantes_2_card_inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.Plantes_2_card_front,
+.Plantes_2_card_back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.Plantes_2_card_front {
+  background: url(Images/Plantes/ravenale.jpg);
+  background-size: cover;
+  background-position: bottom right;
+  color: black;
+}
+
+.Plantes_2_card_back {
+  background-color: white;
+  color: black;
+  transform: rotateY(180deg);
+}
+
+.Plantes_3_card {
+  width: 100%;
+  height: 500px;
+  /* border: 1px solid #f1f1f1;   If You want a border  */
+  perspective: 800px;
+  margin-top: 10px;
+}
+
+/* This container is needed to position the front and back side */
+.Plantes_3_card_inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.Plantes_3_card:hover .Plantes_3_card_inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.Plantes_3_card_front,
+.Plantes_3_card_back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.Plantes_3_card_front {
+  background: url(Images/Plantes/cyathea.jpg);
+  background-size: cover;
+  background-position: center;
+  color: black;
+}
+
+.Plantes_3_card_back {
+  background-color: white;
+  color: black;
+  transform: rotateY(180deg);
+}
+
+
+
+
+.Plantes_4_card {
+  width: 100%;
+  height: 600px;
+  /* border: 1px solid #f1f1f1;   If You want a border  */
+  perspective: 800px;
+  margin-top: 10px;
+}
+
+/* This container is needed to position the front and back side */
+.Plantes_4_card_inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.Plantes_4_card:hover .Plantes_4_card_inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.Plantes_4_card_front,
+.Plantes_4_card_back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.Plantes_4_card_front {
+  background: url(Images/Plantes/cactus.jpg) no-repeat;
+  background-size: cover;
+  background-position: top right;
+  color: black;
+}
+
+.Plantes_4_card_back {
+  background-color: white;
+  color: black;
+  transform: rotateY(180deg);
+}
+
+
+
+
+
+
+
 .Plantes_Box_2{
   display: flex;
   flex-direction: column;
@@ -641,65 +835,195 @@ footer{
   padding-bottom: 50px;
   background-color: rgba(56, 62, 86, 0.5);
 }
-.Plantes_1{
-  background: url(Images/Plantes/petit_cochon.jpg) no-repeat;
+
+
+.Plantes_2_1_card {
+  width: 100%;
+  height: 950px;
+  /* border: 1px solid #f1f1f1;   If You want a border  */
+  perspective: 800px;
+  /* margin-top: 10px; */
+}
+
+/* This container is needed to position the front and back side */
+.Plantes_2_1_card_inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.Plantes_2_1_card:hover .Plantes_2_1_card_inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.Plantes_2_1_card_front,
+.Plantes_2_1_card_back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.Plantes_2_1_card_front {
+  background: url(Images/Plantes/rangement.jpg) no-repeat;
+  background-size: cover;
+  background-position: top right;
+  color: black;
+}
+
+.Plantes_2_1_card_back {
+  background-color: white;
+  color: black;
+  transform: rotateY(180deg);
+}
+
+
+
+
+.Plantes_2_2_card {
+  width: 100%;
+  height: 400px;
+  /* border: 1px solid #f1f1f1;   If You want a border  */
+  perspective: 800px;
+  margin-top: 10px;
+}
+
+/* This container is needed to position the front and back side */
+.Plantes_2_2_card_inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.Plantes_2_2_card:hover .Plantes_2_2_card_inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.Plantes_2_2_card_front,
+.Plantes_2_2_card_back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.Plantes_2_2_card_front {
+  background: url(Images/Plantes/cériman.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: black;
+}
+
+.Plantes_2_2_card_back {
+  background-color: white;
+  color: black;
+  transform: rotateY(180deg);
+}
+
+
+
+
+
+.Plantes_2_3_card {
+  width: 100%;
+  height: 600px;
+  /* border: 1px solid #f1f1f1;   If You want a border  */
+  perspective: 800px;
+  margin-top: 10px;
+}
+
+/* This container is needed to position the front and back side */
+.Plantes_2_3_card_inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.Plantes_2_3_card:hover .Plantes_2_3_card_inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.Plantes_2_3_card_front,
+.Plantes_2_3_card_back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.Plantes_2_3_card_front {
+  background: url(Images/Plantes/gommier_bleu.jpg) no-repeat;
   background-size: cover;
   background-position: bottom;
-  width: 100%;
-  height: 850px;
+  color: black;
 }
-.Plantes_2{
-  background: url(Images/Plantes/ravenale.jpg) no-repeat;
-  background-size: cover;
-  background-position: right;
+
+.Plantes_2_3_card_back {
+  background-color: white;
+  color: black;
+  transform: rotateY(180deg);
+}
+
+
+
+
+
+.Plantes_2_4_card {
   width: 100%;
   height: 1000px;
+  /* border: 1px solid #f1f1f1;   If You want a border  */
+  perspective: 800px;
   margin-top: 10px;
 }
-.Plantes_3{
-  background: url(Images/Plantes/cyathea.jpg) no-repeat;
-  background-size: cover;
-  background-position: right;
+
+/* This container is needed to position the front and back side */
+.Plantes_2_4_card_inner {
+  position: relative;
   width: 100%;
-  height: 500px;
-  margin-top: 10px;
+  height: 100%;
+  text-align: center;
+  transition: transform 1s;
+  transform-style: preserve-3d;
 }
-.Plantes_4{
-    background: url(Images/Plantes/cactus.jpg) no-repeat;
-    background-size: cover;
-    background-position: top right;
-    width: 100%;
-    height: 600px;
-    margin-top: 10px;
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.Plantes_2_4_card:hover .Plantes_2_4_card_inner {
+  transform: rotateY(180deg);
 }
-.Plantes_2_1{
-    background: url(Images/Plantes/rangement.jpg) no-repeat;
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    height: 950px;
+
+/* Position the front and back side */
+.Plantes_2_4_card_front,
+.Plantes_2_4_card_back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
 }
-.Plantes_2_2{
-    background: url(Images/Plantes/cériman.jpg) no-repeat;
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    height: 400px;
-    margin-top: 10px;
+
+.Plantes_2_4_card_front {
+  background: url(Images/Plantes/ficus.jpg) no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  color: black;
 }
-.Plantes_2_3{
-    background: url(Images/Plantes/gommier_bleu.jpg) no-repeat;
-    background-size: cover;
-    background-position: bottom;
-    width: 100%;
-    height: 600px;
-    margin-top: 10px;
-}
-.Plantes_2_4{
-    background: url(Images/Plantes/ficus.jpg) no-repeat;
-    background-size: cover;
-    background-position: bottom;
-    width: 100%;
-    height: 1000px;
-    margin-top: 10px;
+
+.Plantes_2_4_card_back {
+  background-color: white;
+  color: black;
+  transform: rotateY(180deg);
 }
