@@ -612,10 +612,10 @@
 
 /* ==========================FLEUR 2=========================== */
 .Fleurs_2_container {
-  background-color: transparent;
+  /* background-color: transparent; */
   grid-row: 1/4;
   grid-column: 2/5;
-  perspective: 800px;
+  /* perspective: 800px; */
   /* Remove this if you don't want the 3D effect */
 }
 
@@ -629,12 +629,13 @@
 
 /* Do an horizontal flip when you move the mouse over the flip box container */
 .Fleurs_2_container:hover .Fleurs_2_back {
-  transform: scale(1);
-  transition: all 1s;
+  /* transform: scale(1);
+  transition: all 1s; */
+  animation: test 3s linear both;
 }
 
 /* Position the front and back side */
-.Fleurs_2_front, .Fleurs_2_back {
+.Fleurs_2_front{
   position: absolute;
   width: 100%;
   height: 100%;
@@ -645,14 +646,26 @@
   background: url(Images/Fleurs/cerisier.jpg);
   background-size: cover;
   background-position: right;
+  position: absolute;
+  z-index: (1);
 }
 
 .Fleurs_2_back {
-  background-color: rgba(255, 255, 255, 0.7);
+  /* position: absolute; */
+  /* transform: scale(1); */
+  background-color: rgba(255, 255, 255, 1);
   color: black;
-  transform: scale(0);
+  z-index: (0);
+  /* animation: test 4s linear infinite alternate; */
 }
-
+@keyframes test {
+  from{
+    z-index: (0); transform: scale(1);
+  }
+  to{
+    z-index: (2); transform: scale(1);
+  }
+}
 /* ==========================FLEUR 3=========================== */
 .Fleurs_3_container {
   background-color: transparent;
